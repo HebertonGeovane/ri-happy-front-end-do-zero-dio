@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cadastro</title>
+</head>
+<body>
+    <form onsubmit="" method="get">
+        <label >Nome:</label> <input type="text" name="name"> <br> <br>
+        <label >Idade:</label> <input type="number" name="age"> <br> <br>
+        <label >Password: </label><input type="password" name="password"> <br> <br>
+
+         <label>Cargos:</label> 
+         <select name="role">
+            <option value="">Selecione o cargo:</option>
+            <option value="estagiario">Estagiário</option>  
+            <option value="desenvolvedor">Desenvolvedor</option>
+            <option value="devops">DevOps</option>
+            <option value="alalista cloud">Analista Cloud</option>  
+        </select>
+        <br> <br>
+        <label>Assunto:</label> <input type="text" name="subject"><br> <br>
+        <label>Mensagem:</label>
+        <textarea name="message" rows="10" cols="30"></textarea> <br><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
